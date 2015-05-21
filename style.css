@@ -1,0 +1,65 @@
+img {
+	height: 300px;
+	width: 500px;
+	border: 1px solid blue;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #7c7c7c;
+}
+
+
+#title {
+	font-family: cursive;
+}
+
+.box {
+	height: 45px;
+	width: 175px;
+	background-color: red;
+	border: 1px black;
+	transition: all 600ms ease-in;
+	font-family: impact;
+}
+
+.box:hover {
+	width: 500px;
+	background-color: green;
+	transition: all 1000ms ease-in;
+}
+
+body {
+	background-color: yellow;
+}
+
+.container {
+	width: 375px;
+	height: 225px;
+	overflow: hidden;
+}
+
+.centred-and-cropped
+
+/*This hover effect works when tested in Chrome Dev Tools but doesn't work here*/
+p:hover {
+	background-color: pink;
+}
+
+ol {
+    list-style-type: none;
+	position: relative;
+	left: -20px;
+}
+
+ul li {
+	background: #eeeeee;
+	border-radius: 5px;
+	border: 1px solid black;
+	margin: 3px;
+	padding: 0.4em;
+	font-size: 1em;
+	height: 16px;
+	font-family: Verdana, Arial, Sans-Serif;
+}
+
+ul .ui-selected {
+	background: #F39814; color: white;
+}
